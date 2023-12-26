@@ -18,3 +18,10 @@ svg {
     touch-action: none;
     color: red;
 }
+
+.tip {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #ddd;
+}
