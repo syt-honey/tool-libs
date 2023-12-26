@@ -1,7 +1,3 @@
-export function mid(a, b) {
-    return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }
-}
-
 export const M = ({ x, y }) => `M${x.toFixed(2)},${y.toFixed(2)}`
 export const L = ({ x, y }) => `L${x.toFixed(2)},${y.toFixed(2)}`
 
